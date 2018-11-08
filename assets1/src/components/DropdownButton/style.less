@@ -1,0 +1,41 @@
+@import '../style';
+
+.btn {
+  &.btn-dropdown,
+  &.btn-popup {
+    padding-right: 35px;
+
+    &:after {
+      position: absolute;
+      display: inline-block;
+      border-left: 5px solid transparent;
+      border-top: 5px solid #939393;
+      border-right: 5px solid transparent;
+      border-bottom: none;
+      height: 0px;
+      width: 0px;
+      vertical-align: top;
+      content: "";
+      margin:10px 7px 0 15px;
+      color: #888;
+      right: 0;
+      top: 0;
+    }
+
+    &:before {
+      position: absolute;
+      display: inline-block;
+      background: #EAEAEA;
+      width: 24px;
+      height: 23px;
+      right: 0;
+      content: "";
+      border-bottom: 1px solid #fff;
+      border-left: 1px solid #D3D3D3;
+    }
+  }
+
+  &.btn-block {
+    display: block !important;
+  }
+}

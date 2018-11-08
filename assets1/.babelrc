@@ -1,0 +1,22 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 7"]
+      }
+    }],
+    "react"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    ["react-css-modules", {
+      "filetypes": {
+        ".less": {
+          "syntax": "postcss-less"
+        }
+      },
+      "generateScopedName": "[path][name]__[local]--[hash:base64:5]"
+    }]
+  ]
+}

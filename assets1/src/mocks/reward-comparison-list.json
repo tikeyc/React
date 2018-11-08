@@ -1,0 +1,1331 @@
+﻿{
+  "result_code": "200",
+  "data": [
+    {
+      "model": "车型",
+      "incentContent": [
+        {
+          "subModel": "CR-V",
+          "price": "16.98~26.28万",
+          "tag": "MSRP",
+          "logoUrl": "http://web.thinktanksgmmd.com/cms_picture/car_picture/东风本田/本田/CR-V/115_CR-V/东风本田_本田_115_CR-V_CR-V_斜前_20180104_054424434.jpg",
+          "policyContent": [
+            {
+              "item": [
+                {
+                  "subType": "1、DBS",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "1、DBS",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "1、DBS",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "1、DBS",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "1、DBS",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "1、DBS",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "1、DBS",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "1、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "2、售后营销支援",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "2、售后营销支援",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "2、售后营销支援",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "2、售后营销支援",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "2、售后营销支援",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "2、售后营销支援",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "2、售后营销支援",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "2、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "3、提车基本折扣",
+                  "policy": "5.6%(全系)<br/>"
+                },
+                {
+                  "subType": "3、提车基本折扣",
+                  "policy": "5.6%(全系)<br/>"
+                },
+                {
+                  "subType": "3、提车基本折扣",
+                  "policy": "5.6%(全系)<br/>"
+                },
+                {
+                  "subType": "3、提车基本折扣",
+                  "policy": "5.6%(全系)<br/>"
+                },
+                {
+                  "subType": "3、提车基本折扣",
+                  "policy": "5.6%(全系)<br/>"
+                },
+                {
+                  "subType": "3、提车基本折扣",
+                  "policy": "5.6%(全系)<br/>"
+                },
+                {
+                  "subType": "3、提车基本折扣",
+                  "policy": "5.6%(全系)<br/>"
+                },
+                {
+                  "subType": "3、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "4、星级评定",
+                  "policy": "0.3%(全系)<br/>"
+                },
+                {
+                  "subType": "4、星级评定",
+                  "policy": "0.3%(全系)<br/>"
+                },
+                {
+                  "subType": "4、星级评定",
+                  "policy": "0.3%(全系)<br/>"
+                },
+                {
+                  "subType": "4、星级评定",
+                  "policy": "0.3%(全系)<br/>"
+                },
+                {
+                  "subType": "4、星级评定",
+                  "policy": "0.3%(全系)<br/>"
+                },
+                {
+                  "subType": "4、星级评定",
+                  "policy": "0.3%(全系)<br/>"
+                },
+                {
+                  "subType": "4、星级评定",
+                  "policy": "0.3%(全系)<br/>"
+                },
+                {
+                  "subType": "4、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "5、目标达成折扣考核",
+                  "policy": "1.0%(全系)<br/>"
+                },
+                {
+                  "subType": "5、目标达成折扣考核",
+                  "policy": "1.0%(全系)<br/>"
+                },
+                {
+                  "subType": "5、目标达成折扣考核",
+                  "policy": "1.0%(全系)<br/>"
+                },
+                {
+                  "subType": "5、目标达成折扣考核",
+                  "policy": "1.0%(全系)<br/>"
+                },
+                {
+                  "subType": "5、目标达成折扣考核",
+                  "policy": "1.0%(全系)<br/>"
+                },
+                {
+                  "subType": "5、目标达成折扣考核",
+                  "policy": "1.0%(全系)<br/>"
+                },
+                {
+                  "subType": "5、目标达成折扣考核",
+                  "policy": "1.0%(全系)<br/>"
+                },
+                {
+                  "subType": "5、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "6、销售客户满意度",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "6、销售客户满意度",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "6、销售客户满意度",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "6、销售客户满意度",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "6、销售客户满意度",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "6、销售客户满意度",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "6、销售客户满意度",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "6、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "subType": "7、“激流勇进”综合奖励",
+                  "policy": "1,800(2017款/2018款)<br/>"
+                },
+                {
+                  "subType": "7、延续",
+                  "policy": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subModel": "A4 Allroad",
+          "price": "39.58~51.98万",
+          "tag": "MSRP",
+          "logoUrl": "http://web.thinktanksgmmd.com/cms_picture/car_picture/奥迪/奥迪/A4/71_A4 Allroad/奥迪_奥迪_71_A4 Allroad_A4_斜前_20180115_035636547.jpg",
+          "policyContent": [
+            {
+              "item": [
+                {
+                  "subType": "1、STD计划完成率考核",
+                  "policy": "1.5%(全车系)<br/>"
+                },
+                {
+                  "subType": "1、STD计划完成率考核",
+                  "policy": "1.5%(全车系)<br/>"
+                },
+                {
+                  "subType": "1、STD计划完成率考核",
+                  "policy": "1.5%(全车系)<br/>"
+                },
+                {
+                  "subType": "1、STD计划完成率考核",
+                  "policy": "1.5%(全车系)<br/>"
+                },
+                {
+                  "subType": "1、STD计划完成率考核",
+                  "policy": "1.5%(全车系)<br/>"
+                },
+                {
+                  "subType": "1、STD计划完成率考核",
+                  "policy": "1.5%(全车系)<br/>"
+                },
+                {
+                  "subType": "1、STD计划完成率考核",
+                  "policy": "1.5%(全车系)<br/>"
+                },
+                {
+                  "subType": "1、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "2、基础销售折让",
+                  "policy": "8.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "2、基础销售折让",
+                  "policy": "8.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "2、基础销售折让",
+                  "policy": "8.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "2、基础销售折让",
+                  "policy": "8.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "2、基础销售折让",
+                  "policy": "8.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "2、基础销售折让",
+                  "policy": "8.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "2、基础销售折让",
+                  "policy": "8.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "2、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "3、市场销售奖励",
+                  "policy": "1.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "3、市场销售奖励",
+                  "policy": "1.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "3、市场销售奖励",
+                  "policy": "1.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "3、市场销售奖励",
+                  "policy": "1.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "3、市场销售奖励",
+                  "policy": "1.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "3、市场销售奖励",
+                  "policy": "1.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "3、市场销售奖励",
+                  "policy": "1.0%(全车系)<br/>"
+                },
+                {
+                  "subType": "3、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "4、标准销售流程奖励",
+                  "policy": "0.4%(全车系)<br/>"
+                },
+                {
+                  "subType": "4、标准销售流程奖励",
+                  "policy": "0.4%(全车系)<br/>"
+                },
+                {
+                  "subType": "4、标准销售流程奖励",
+                  "policy": "0.4%(全车系)<br/>"
+                },
+                {
+                  "subType": "4、标准销售流程奖励",
+                  "policy": "0.4%(全车系)<br/>"
+                },
+                {
+                  "subType": "4、标准销售流程奖励",
+                  "policy": "0.4%(全车系)<br/>"
+                },
+                {
+                  "subType": "4、标准销售流程奖励",
+                  "policy": "0.4%(全车系)<br/>"
+                },
+                {
+                  "subType": "4、标准销售流程奖励",
+                  "policy": "0.4%(全车系)<br/>"
+                },
+                {
+                  "subType": "4、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "5、质量奖励",
+                  "policy": "0.3%(全车系)<br/>"
+                },
+                {
+                  "subType": "5、质量奖励",
+                  "policy": "0.3%(全车系)<br/>"
+                },
+                {
+                  "subType": "5、质量奖励",
+                  "policy": "0.3%(全车系)<br/>"
+                },
+                {
+                  "subType": "5、质量奖励",
+                  "policy": "0.3%(全车系)<br/>"
+                },
+                {
+                  "subType": "5、质量奖励",
+                  "policy": "0.3%(全车系)<br/>"
+                },
+                {
+                  "subType": "5、质量奖励",
+                  "policy": "0.3%(全车系)<br/>"
+                },
+                {
+                  "subType": "5、质量奖励",
+                  "policy": "0.3%(全车系)<br/>"
+                },
+                {
+                  "subType": "5、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "6、车型奖励",
+                  "policy": "2.1%(全车系)<br/>"
+                },
+                {
+                  "subType": "6、车型奖励",
+                  "policy": "2.1%(全车系)<br/>"
+                },
+                {
+                  "subType": "6、车型奖励",
+                  "policy": "2.1%(全车系)<br/>"
+                },
+                {
+                  "subType": "6、车型奖励",
+                  "policy": "2.1%(全车系)<br/>"
+                },
+                {
+                  "subType": "6、车型奖励",
+                  "policy": "2.1%(全车系)<br/>"
+                },
+                {
+                  "subType": "6、车型奖励",
+                  "policy": "2.1%(全车系)<br/>"
+                },
+                {
+                  "subType": "6、车型奖励",
+                  "policy": "1.7%(全车系)<br/>"
+                },
+                {
+                  "subType": "6、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "7、销量提升支持",
+                  "policy": "2.0%(2017款)<br/>"
+                },
+                {
+                  "subType": "7、销量提升支持",
+                  "policy": "2.0%(2017款)<br/>"
+                },
+                {
+                  "subType": "7、销量提升支持",
+                  "policy": "2.0%(2017款)<br/>"
+                },
+                {
+                  "subType": "7、销量提升支持",
+                  "policy": "2,200(2017款)<br/>2.0%(2017款)<br/>"
+                },
+                {
+                  "subType": "7、销量提升支持",
+                  "policy": "2,200(2017款)<br/>2.0%(2017款)<br/>"
+                },
+                {
+                  "subType": "7、销量提升支持",
+                  "policy": "2,200(2017款)<br/>2.0%(2017款)<br/>"
+                },
+                {
+                  "subType": "7、销量提升支持",
+                  "policy": "1.0%(2017款)<br/>"
+                },
+                {
+                  "subType": "7、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "subType": "8、终端季度营销质量奖励",
+                  "policy": "0.4%(全车系)<br/>"
+                },
+                {
+                  "subType": "8、延续",
+                  "policy": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subModel": "君威",
+          "price": "17.58~29.99万",
+          "tag": "MSRP",
+          "logoUrl": "http://web.thinktanksgmmd.com/cms_picture/car_picture/上汽通用/别克/君威/583_君威/上汽通用_别克_583_君威_君威_斜前_20180822_044750464.jpg",
+          "policyContent": [
+            {
+              "item": [
+                {
+                  "subType": "1、交车达标奖(常规)",
+                  "policy": "3,000(20T 尊贵型)<br/>2,000(20T 豪华型)<br/>"
+                },
+                {
+                  "subType": "1、交车达标奖(常规)",
+                  "policy": "3,000(20T 尊贵型)<br/>2,000(20T 豪华型)<br/>"
+                },
+                {
+                  "subType": "1、交车达标奖(常规)",
+                  "policy": "1,500(20T 尊贵型)<br/>500(20T 豪华型)<br/>"
+                },
+                {
+                  "subType": "1、交车达标奖(常规)",
+                  "policy": "1,500(20T 尊贵型)<br/>500(20T 豪华型)<br/>"
+                },
+                {
+                  "subType": "1、交车达标奖(常规)",
+                  "policy": "1,500(20T 尊贵型)<br/>500(20T 豪华型)<br/>"
+                },
+                {
+                  "subType": "1、交车达标奖(常规)",
+                  "policy": "1,500(20T 尊贵型)<br/>500(20T 豪华型)<br/>"
+                },
+                {
+                  "subType": "1、交车达标奖(常规)",
+                  "policy": "1,500(20T 尊贵型)<br/>500(20T 豪华型)<br/>"
+                },
+                {
+                  "subType": "1、交车达标奖(常规)",
+                  "policy": "1,500(2017款20T 尊贵型)<br/>500(2017款20T 豪华型)<br/>"
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "2、保险基金补贴",
+                  "policy": "2,500(2017款)<br/>"
+                },
+                {
+                  "subType": "2、保险基金补贴",
+                  "policy": "2,500(2017款)<br/>"
+                },
+                {
+                  "subType": "2、保险基金补贴",
+                  "policy": "2,500(2017款)<br/>"
+                },
+                {
+                  "subType": "2、保险基金补贴",
+                  "policy": "2,500(2017款)<br/>"
+                },
+                {
+                  "subType": "2、保险基金补贴",
+                  "policy": "2,500(2017款)<br/>"
+                },
+                {
+                  "subType": "2、保险基金补贴",
+                  "policy": "2,500(2017款)<br/>"
+                },
+                {
+                  "subType": "2、保险基金补贴",
+                  "policy": "2,500(2017/2018款)<br/>241.9355(2017/2018款)<br/>"
+                },
+                {
+                  "subType": "2、保险基金补贴",
+                  "policy": "2,500(2017/2018款)<br/>"
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "3、君威竞品追赶奖",
+                  "policy": "79(全系)<br/>"
+                },
+                {
+                  "subType": "3、君威竞品追赶奖",
+                  "policy": "79(全系)<br/>"
+                },
+                {
+                  "subType": "3、君威竞品追赶奖",
+                  "policy": "79(全系)<br/>"
+                },
+                {
+                  "subType": "3、君威竞品追赶奖",
+                  "policy": "79(全系)<br/>"
+                },
+                {
+                  "subType": "3、君威竞品追赶奖",
+                  "policy": "79(全系)<br/>"
+                },
+                {
+                  "subType": "3、君威竞品追赶奖",
+                  "policy": "79(全系)<br/>"
+                },
+                {
+                  "subType": "3、君威竞品追赶奖",
+                  "policy": "7.6452(全系)<br/>79(全系)<br/>"
+                },
+                {
+                  "subType": "3、君威竞品追赶奖",
+                  "policy": "<font color='green'>79(全系)</font><br/>"
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "4、售后客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "4、售后客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "4、售后客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "4、售后客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "4、售后客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "4、售后客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "4、售后客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "4、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "5、售后星级评定",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "5、售后星级评定",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "5、售后星级评定",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "5、售后星级评定",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "5、售后星级评定",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "5、售后星级评定",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "5、售后星级评定",
+                  "policy": "0.1%(全系)<br/>"
+                },
+                {
+                  "subType": "5、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "6、基本毛利",
+                  "policy": "4.0%(全系)<br/>"
+                },
+                {
+                  "subType": "6、基本毛利",
+                  "policy": "4.0%(全系)<br/>"
+                },
+                {
+                  "subType": "6、基本毛利",
+                  "policy": "4.0%(全系)<br/>"
+                },
+                {
+                  "subType": "6、基本毛利",
+                  "policy": "4.0%(全系)<br/>"
+                },
+                {
+                  "subType": "6、基本毛利",
+                  "policy": "4.0%(全系)<br/>"
+                },
+                {
+                  "subType": "6、基本毛利",
+                  "policy": "4.0%(全系)<br/>"
+                },
+                {
+                  "subType": "6、基本毛利",
+                  "policy": "4.0%(全系)<br/>"
+                },
+                {
+                  "subType": "6、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "7、客户体验支持奖",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "7、客户体验支持奖",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "7、客户体验支持奖",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "7、客户体验支持奖",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "7、客户体验支持奖",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "7、客户体验支持奖",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "7、客户体验支持奖",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "7、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "8、总体市占率提升奖",
+                  "policy": "600(全系)<br/>"
+                },
+                {
+                  "subType": "8、总体市占率提升奖",
+                  "policy": "600(全系)<br/>"
+                },
+                {
+                  "subType": "8、总体市占率提升奖",
+                  "policy": "600(全系)<br/>"
+                },
+                {
+                  "subType": "8、总体市占率提升奖",
+                  "policy": "600(全系)<br/>"
+                },
+                {
+                  "subType": "8、总体市占率提升奖",
+                  "policy": "600(全系)<br/>"
+                },
+                {
+                  "subType": "8、总体市占率提升奖",
+                  "policy": "600(全系)<br/>"
+                },
+                {
+                  "subType": "8、总体市占率提升奖",
+                  "policy": "58.0645(全系)<br/>600(全系)<br/>"
+                },
+                {
+                  "subType": "8、总体市占率提升奖",
+                  "policy": "<font color='green'>600(全系)</font><br/>"
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "9、进货准确率奖",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "9、进货准确率奖",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "9、进货准确率奖",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "9、进货准确率奖",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "9、进货准确率奖",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "9、进货准确率奖",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "9、进货准确率奖",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "9、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "10、重点车型市场占有率",
+                  "policy": "1,000(全系)<br/>"
+                },
+                {
+                  "subType": "10、重点车型市场占有率",
+                  "policy": "1,000(全系)<br/>"
+                },
+                {
+                  "subType": "10、重点车型市场占有率",
+                  "policy": "1,000(全系)<br/>"
+                },
+                {
+                  "subType": "10、重点车型市场占有率",
+                  "policy": "1,000(全系)<br/>"
+                },
+                {
+                  "subType": "10、重点车型市场占有率",
+                  "policy": "1,000(全系)<br/>"
+                },
+                {
+                  "subType": "10、重点车型市场占有率",
+                  "policy": "1,000(全系)<br/>"
+                },
+                {
+                  "subType": "10、重点车型市场占有率",
+                  "policy": "1,000(全系)<br/>96.7742(全系)<br/>"
+                },
+                {
+                  "subType": "10、重点车型市场占有率",
+                  "policy": "1,000(全系)<br/>"
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "11、销售客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "11、销售客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "11、销售客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "11、销售客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "11、销售客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "11、销售客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "11、销售客户忠诚度",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "11、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "12、销售星级评定",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "12、销售星级评定",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "12、销售星级评定",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "12、销售星级评定",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "12、销售星级评定",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "12、销售星级评定",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "12、销售星级评定",
+                  "policy": "0.2%(全系)<br/>"
+                },
+                {
+                  "subType": "12、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "13、销售运营管理奖",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "13、销售运营管理奖",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "13、销售运营管理奖",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "13、销售运营管理奖",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "13、销售运营管理奖",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "13、销售运营管理奖",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "13、销售运营管理奖",
+                  "policy": "0.0%(全系)<br/>"
+                },
+                {
+                  "subType": "13、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "14、附件补贴",
+                  "policy": "600(2017款)<br/>"
+                },
+                {
+                  "subType": "14、附件补贴",
+                  "policy": "600(2017款)<br/>"
+                },
+                {
+                  "subType": "14、附件补贴",
+                  "policy": "600(2017款)<br/>"
+                },
+                {
+                  "subType": "14、附件补贴",
+                  "policy": "600(2017款)<br/>"
+                },
+                {
+                  "subType": "14、附件补贴",
+                  "policy": "600(2017款)<br/>"
+                },
+                {
+                  "subType": "14、附件补贴",
+                  "policy": "600(2017款)<br/>"
+                },
+                {
+                  "subType": "14、附件补贴",
+                  "policy": "58.0645(2017/2018款)<br/>600(2017/2018款)<br/>"
+                },
+                {
+                  "subType": "14、附件补贴",
+                  "policy": "<font color='green'>600(2017/2018款)</font><br/>"
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "15、零售节奏奖",
+                  "policy": "135(2017款)<br/>"
+                },
+                {
+                  "subType": "15、零售节奏奖",
+                  "policy": "135(2017款)<br/>"
+                },
+                {
+                  "subType": "15、零售节奏奖",
+                  "policy": "135(2017款)<br/>"
+                },
+                {
+                  "subType": "15、零售节奏奖",
+                  "policy": "135(2017款)<br/>"
+                },
+                {
+                  "subType": "15、零售节奏奖",
+                  "policy": "135(2017款)<br/>"
+                },
+                {
+                  "subType": "15、零售节奏奖",
+                  "policy": "135(2017款)<br/>"
+                },
+                {
+                  "subType": "15、零售节奏奖",
+                  "policy": "13.0645(2017/2018款)<br/>135(2017/2018款)<br/>"
+                },
+                {
+                  "subType": "15、零售节奏奖",
+                  "policy": "<font color='green'>135(2017/2018款)</font><br/>"
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "16、零售达标奖",
+                  "policy": "0.8%(全系)<br/>"
+                },
+                {
+                  "subType": "16、零售达标奖",
+                  "policy": "0.8%(全系)<br/>"
+                },
+                {
+                  "subType": "16、零售达标奖",
+                  "policy": "0.8%(全系)<br/>"
+                },
+                {
+                  "subType": "16、零售达标奖",
+                  "policy": "0.8%(全系)<br/>"
+                },
+                {
+                  "subType": "16、零售达标奖",
+                  "policy": "0.8%(全系)<br/>"
+                },
+                {
+                  "subType": "16、零售达标奖",
+                  "policy": "0.8%(全系)<br/>"
+                },
+                {
+                  "subType": "16、零售达标奖",
+                  "policy": "0.8%(全系)<br/>"
+                },
+                {
+                  "subType": "16、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "subType": "17、保养赠送",
+                  "policy": "2,146(2017/2018款GS 28T)<br/>207.6774(2017/2018款GS 28T)<br/>"
+                },
+                {
+                  "subType": "17、保养赠送",
+                  "policy": "2,146(2017/2018款GS 28T)<br/>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subModel": "C级",
+          "price": "35.3~48.88万",
+          "tag": "MSRP",
+          "logoUrl": "http://web.thinktanksgmmd.com/cms_picture/car_picture/奔驰/奔驰/C级/129_C级/奔驰_奔驰_129_C级_C级_斜前_20180115_120352576.jpg",
+          "policyContent": [
+            {
+              "item": [
+                {
+                  "subType": "1、固定折扣",
+                  "policy": "8.0%(全系)<br/>"
+                },
+                {
+                  "subType": "1、固定折扣",
+                  "policy": "8.0%(全系)<br/>"
+                },
+                {
+                  "subType": "1、固定折扣",
+                  "policy": "8.0%(全系)<br/>"
+                },
+                {
+                  "subType": "1、固定折扣",
+                  "policy": "8.0%(全系)<br/>"
+                },
+                {
+                  "subType": "1、固定折扣",
+                  "policy": "8.0%(全系)<br/>"
+                },
+                {
+                  "subType": "1、固定折扣",
+                  "policy": "8.0%(全系)<br/>"
+                },
+                {
+                  "subType": "1、固定折扣",
+                  "policy": "8.0%(全系)<br/>"
+                },
+                {
+                  "subType": "1、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "2、总体零售奖励计划",
+                  "policy": "1,000(2017/2018款)<br/>"
+                },
+                {
+                  "subType": "2、总体零售奖励计划",
+                  "policy": "4,800(2017/2018款)<br/>"
+                },
+                {
+                  "subType": "2、总体零售奖励计划",
+                  "policy": "4,800(2017/2018款)<br/>"
+                },
+                {
+                  "subType": "2、总体零售奖励计划",
+                  "policy": "1,000(C级轿跑车)<br/>"
+                },
+                {
+                  "subType": "2、总体零售奖励计划",
+                  "policy": "1,000(C级轿跑车)<br/>"
+                },
+                {
+                  "subType": "2、总体零售奖励计划",
+                  "policy": "1,000(C级轿跑车)<br/>"
+                },
+                {
+                  "subType": "2、总体零售奖励计划",
+                  "policy": "1,000(2018款)<br/>"
+                },
+                {
+                  "subType": "2、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "3、批售目标完成奖励",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "3、批售目标完成奖励",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "3、批售目标完成奖励",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "3、批售目标完成奖励",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "3、批售目标完成奖励",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "3、批售目标完成奖励",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "3、批售目标完成奖励",
+                  "policy": "0.4%(全系)<br/>"
+                },
+                {
+                  "subType": "3、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "4、销售效率奖励",
+                  "policy": "1.2%(全系)<br/>"
+                },
+                {
+                  "subType": "4、销售效率奖励",
+                  "policy": "1.2%(全系)<br/>"
+                },
+                {
+                  "subType": "4、销售效率奖励",
+                  "policy": "1.2%(全系)<br/>"
+                },
+                {
+                  "subType": "4、销售效率奖励",
+                  "policy": "1.2%(全系)<br/>"
+                },
+                {
+                  "subType": "4、销售效率奖励",
+                  "policy": "1.2%(全系)<br/>"
+                },
+                {
+                  "subType": "4、销售效率奖励",
+                  "policy": "1.2%(全系)<br/>"
+                },
+                {
+                  "subType": "4、销售效率奖励",
+                  "policy": "1.2%(全系)<br/>"
+                },
+                {
+                  "subType": "4、延续",
+                  "policy": null
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "subType": "5、零售目标完成奖励",
+                  "policy": "1.9%(全系)<br/>"
+                },
+                {
+                  "subType": "5、零售目标完成奖励",
+                  "policy": "1.9%(全系)<br/>"
+                },
+                {
+                  "subType": "5、零售目标完成奖励",
+                  "policy": "1.9%(全系)<br/>"
+                },
+                {
+                  "subType": "5、零售目标完成奖励",
+                  "policy": "1.9%(全系)<br/>"
+                },
+                {
+                  "subType": "5、零售目标完成奖励",
+                  "policy": "1.9%(全系)<br/>"
+                },
+                {
+                  "subType": "5、零售目标完成奖励",
+                  "policy": "1.9%(全系)<br/>"
+                },
+                {
+                  "subType": "5、零售目标完成奖励",
+                  "policy": "1.9%(全系)<br/>"
+                },
+                {
+                  "subType": "5、延续",
+                  "policy": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "titles": [
+        "1月激励政策",
+        "2月激励政策",
+        "3月激励政策",
+        "4月激励政策",
+        "5月激励政策",
+        "6月激励政策",
+        "7月激励政策",
+        "8月激励政策"
+      ]
+    }
+  ],
+  "result_msg": "执行成功"
+}

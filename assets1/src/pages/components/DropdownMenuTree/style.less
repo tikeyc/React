@@ -1,0 +1,76 @@
+.dropdown-menu-tree {
+  .scrollbar {
+    max-height: 400px;
+    overflow: auto;
+  }
+  .input-search {
+    border: 1px solid #ECEBF1;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 12px;
+    outline: none;
+    font-size: 14px;
+    width: 200px;
+    float: right;
+    margin: -33px 16px;
+  }
+  .no-result {
+    text-align: center;
+    line-height: 300px;
+    font-size: 14px;
+  }
+  .keyword {
+    color: red;
+    font-size: 16px;
+  }
+  :global table {
+    width: 100%;
+    & > table {
+      margin: -1px 0 0 -1px;
+    }
+    td {
+      padding: 0;
+      line-height: 20px;
+      border-top: 1px solid #EBEBEB;
+    }
+    .children {
+      border-left: 1px solid #EBEBEB;
+      > table {
+        margin: -1px 0 0 -1px;
+      }
+    }
+    td:first-child {
+      width: 120px;
+      text-align: left;
+    }
+    a {
+      min-width: 120px;
+      padding: 0 10px;
+      background: url('../../images/icon-weigouxuan.png') no-repeat left;
+      padding-left: 16px;
+      margin: 5px 10px;
+      cursor: pointer;
+      border-radius: 2px;
+      display: inline-block;
+      &:hover {
+        color: #3398CC;
+      }
+      &.checked {
+        background: url('../../images/icon-gouxuan.png') no-repeat left;
+        padding-left: 16px;
+        // color: #FFF;
+      }
+    }
+    &.is-root:first-child > tbody > tr > td {
+      border-top: 0;
+    }
+    &.is-root > tbody > tr > td:first-child {
+      text-align: center;
+      a {
+        width: auto;
+        min-width: 60px;
+        text-align: center;
+      }
+    }
+  }
+}

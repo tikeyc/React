@@ -1,0 +1,39 @@
+.app-aside {
+  width: 200px;
+  background: #D1D5D8;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 14px;
+  display: none;
+}
+.app-name {
+  height: 50xp;
+  background: #BCC0C3;
+  line-height: 50px;
+  padding: 0 15px;
+  color: #333;
+  font-weight: bold;
+}
+.menu-name {
+  line-height: 40px;
+  background: #C9CDD0 url(@/pages/Layout/Aside/icon_arrow_down.png) no-repeat 172px center;
+  color: #333;
+  padding: 0 15px;
+}
+.menu li {
+  a {
+    display: block;
+    padding: 0 15px;
+    line-height: 50px;
+    cursor: pointer;
+    color: #333;
+    &:hover {
+      background: #BCC0C3;
+    }
+  }
+  &.active a {
+    background: #FFF;
+  }
+}

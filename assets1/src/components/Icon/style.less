@@ -1,0 +1,88 @@
+i.icon {
+  display: inline-block;
+  opacity: 1;
+  margin: 0 .25rem 0 0;
+  width: 1.18em;
+  height: 1em;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1em;
+
+  &.disabled {
+    opacity: .45!important;
+  }
+
+  &.fitted {
+    width: auto;
+    margin: 0!important;
+  }
+
+  &.mini {
+    line-height: 1;
+    font-size: .4em;
+  }
+  &.tiny {
+    line-height: 1;
+    font-size: .5em;
+  }
+  &.small {
+    line-height: 1;
+    font-size: .75em;
+  }
+  & {
+    // font-size: 1em;
+    font-size: 1.167em;
+  }
+  &.large {
+    line-height: 1;
+    vertical-align: middle;
+    // font-size: 1.5em;
+    font-size: 1.75em;
+  }
+  &.big {
+    line-height: 1;
+    vertical-align: middle;
+    // font-size: 2em;
+    font-size: 2.334em;
+  }
+  &.huge {
+    line-height: 1;
+    vertical-align: middle;
+    // font-size: 4em;
+    font-size: 4.667em;
+  }
+  &.massive {
+    line-height: 1;
+    vertical-align: middle;
+    // font-size: 8em;
+    font-size: 9.334em;
+  }
+
+  &.link {
+    opacity: .8;
+    cursor: pointer;
+    transition: opacity .1s ease;
+  }
+  &.link:hover {
+    opacity: 1;
+  }
+
+  &.circular {
+    border-radius: 500em!important;
+    line-height: 1!important;
+    padding: .5em 0!important;
+    width: 2em!important;
+    height: 2em!important;
+    border: 1px solid rgba(0,0,0,.1);
+  }
+
+  &.bordered {
+    line-height: 1;
+    vertical-align: baseline;
+    width: 2em;
+    height: 2em;
+    padding: .5em 0!important;
+    border: 1px solid rgba(0,0,0,.1);
+  }
+}

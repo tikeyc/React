@@ -1,0 +1,53 @@
+﻿{
+  "result_code": "200",
+  "data": [
+    {
+      "value": "1",
+      "text": "昂科威1",
+      "children": [
+        {
+          "value": "11",
+          "name": "2018 1.5T 双离合 20T 领先型",
+          "msrp": 249900,
+          "progress": "0.5"
+        },
+        {
+          "value": "12",
+          "name": "2018 1.5T 双离合 20T 领先型",
+          "msrp": 226900,
+          "progress": "0.95"
+        },
+        {
+          "value": "13",
+          "name": "2018 1.5T 双离合 20T 领先型",
+          "msrp": 119900,
+          "progress": "0.2"
+        }
+      ]
+    },
+    {
+      "value": "136",
+      "text": "DS 5",
+      "children": [
+        {
+          "value": "501751",
+          "name": "2018 1.5T 双离合 20T 领先型",
+          "msrp": 219900,
+          "progress": "0.6"
+        },
+        {
+          "value": "22",
+          "name": "2018 1.5T 双离合 20T 领先型",
+          "msrp": 219900,
+          "progress": "0.7"
+        },
+        {
+          "value": "23",
+          "name": "2018 1.5T 双离合 20T 领先型",
+          "msrp": 219900,
+          "progress": "0.4"
+        }
+      ]
+    }
+  ]
+}

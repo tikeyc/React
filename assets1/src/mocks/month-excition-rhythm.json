@@ -1,0 +1,460 @@
+﻿{
+  "result_code": "200",
+  "result_msg": "执行成功",
+  "data": [
+    {
+      "data": [
+        {
+          "name": "奔腾B50",
+          "id": "87",
+          "children": [
+            {
+              "name": "专项促销",
+              "children": [
+                {
+                  "startMonth": 9,
+                  "endMonth": 9,
+                  "rewardList": [
+                    {
+                      "name": "上牌奖励",
+                      "value": [
+                        {
+                          "value": "700(2013、2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 10,
+                  "endMonth": 12,
+                  "rewardList": [
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "3000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "上牌奖励",
+                      "value": [
+                        {
+                          "value": "800(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 1,
+                  "endMonth": 1,
+                  "rewardList": [
+                    {
+                      "name": "季度达成奖励",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "单车折扣",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "2000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "STD销售折扣",
+                      "value": [
+                        {
+                          "value": "750(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 2,
+                  "endMonth": 2,
+                  "rewardList": [
+                    {
+                      "name": "季度达成奖励",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "单车折扣",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "2000(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "提车奖励",
+              "children": [
+                {
+                  "startMonth": 9,
+                  "endMonth": 9,
+                  "rewardList": [
+                    {
+                      "name": "上牌奖励",
+                      "value": [
+                        {
+                          "value": "700(2013、2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 10,
+                  "endMonth": 12,
+                  "rewardList": [
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "3000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "上牌奖励",
+                      "value": [
+                        {
+                          "value": "800(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 1,
+                  "endMonth": 1,
+                  "rewardList": [
+                    {
+                      "name": "季度达成奖励",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "单车折扣",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "2000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "STD销售折扣",
+                      "value": [
+                        {
+                          "value": "750(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 2,
+                  "endMonth": 2,
+                  "rewardList": [
+                    {
+                      "name": "季度达成奖励",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "单车折扣",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "2000(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "竞赛类奖励",
+              "children": [
+                {
+                  "startMonth": 9,
+                  "endMonth": 9,
+                  "rewardList": [
+                    {
+                      "name": "上牌奖励",
+                      "value": [
+                        {
+                          "value": "700(2013、2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 10,
+                  "endMonth": 12,
+                  "rewardList": [
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "3000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "上牌奖励",
+                      "value": [
+                        {
+                          "value": "800(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 1,
+                  "endMonth": 1,
+                  "rewardList": [
+                    {
+                      "name": "单车折扣",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "季度达成奖励",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "2000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "STD销售折扣",
+                      "value": [
+                        {
+                          "value": "750(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 2,
+                  "endMonth": 2,
+                  "rewardList": [
+                    {
+                      "name": "单车折扣",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "季度达成奖励",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "2000(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "零售奖励",
+              "children": [
+                {
+                  "startMonth": 9,
+                  "endMonth": 9,
+                  "rewardList": [
+                    {
+                      "name": "上牌奖励",
+                      "value": [
+                        {
+                          "value": "700(2013、2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 10,
+                  "endMonth": 12,
+                  "rewardList": [
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "3000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "上牌奖励",
+                      "value": [
+                        {
+                          "value": "800(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 1,
+                  "endMonth": 1,
+                  "rewardList": [
+                    {
+                      "name": "季度达成奖励",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "单车折扣",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "2000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "STD销售折扣",
+                      "value": [
+                        {
+                          "value": "750(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "startMonth": 2,
+                  "endMonth": 2,
+                  "rewardList": [
+                    {
+                      "name": "单车折扣",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "季度达成奖励",
+                      "value": [
+                        {
+                          "value": "1000(2016款)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AAK考核奖励",
+                      "value": [
+                        {
+                          "value": "2000(2016款)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "month": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ]
+    }
+  ]
+}

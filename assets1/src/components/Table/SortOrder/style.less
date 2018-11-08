@@ -1,0 +1,43 @@
+.ways-table-column-sorter {
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.ways-table-column-sorter-up,
+.ways-table-column-sorter-down {
+  line-height: 6px;
+  display: block;
+  width: 14px;
+  height: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.ways-table-caret-up,
+.ways-table-caret-down {
+  display: block;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.45);
+  border-bottom: 0;
+  margin: 0 auto;
+}
+.ways-table-caret-up {
+  border: 4px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.45);
+  border-top: 0;
+  margin-top: 1px;
+}
+.ways-table-column-sorter-up.on .ways-table-caret-up {
+  border-bottom-color: #1890ff;
+}
+.ways-table-column-sorter-down.on .ways-table-caret-down {
+  border-top-color: #1890ff;
+}

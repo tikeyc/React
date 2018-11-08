@@ -1,0 +1,31 @@
+.datepicker {
+  background-size: auto;
+  padding: 0 0 0 12px;
+  border: 1px solid #ECEBF0;
+  input {
+    width: 134px;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+    outline: none;
+    cursor: default;
+    font-size: 14px;
+    background: transparent;
+  }
+  .date.disabled {
+    color: #AAA;
+  }
+}
+
+.datepicker-range {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  &.error {
+    margin-bottom: 0;
+    .tips {
+      color: red;
+      margin-left: 5px;
+    }
+  }
+}

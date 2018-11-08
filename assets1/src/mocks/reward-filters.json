@@ -1,0 +1,238 @@
+﻿{
+  "result_code": "200",
+  "data": [
+    {
+      "value": "85,84,40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,44,41",
+      "text": "年度",
+      "children": [
+        {
+          "value": 85,
+          "text": "电商支援",
+          "children": null
+        },
+        {
+          "value": 84,
+          "text": "经销商建设支援",
+          "children": null
+        },
+        {
+          "value": 40,
+          "text": "保险保修奖励",
+          "children": null
+        },
+        {
+          "value": 39,
+          "text": "金融管理奖励",
+          "children": null
+        },
+        {
+          "value": 38,
+          "text": "置换管理奖励",
+          "children": null
+        },
+        {
+          "value": 37,
+          "text": "大客户支援",
+          "children": null
+        },
+        {
+          "value": 36,
+          "text": "市场支援",
+          "children": null
+        },
+        {
+          "value": 35,
+          "text": "综合满意度奖励",
+          "children": null
+        },
+        {
+          "value": 34,
+          "text": "服务满意度奖励",
+          "children": null
+        },
+        {
+          "value": 33,
+          "text": "销售满意度奖励",
+          "children": null
+        },
+        {
+          "value": 32,
+          "text": "综合管理奖励",
+          "children": null
+        },
+        {
+          "value": 31,
+          "text": "服务管理奖励",
+          "children": null
+        },
+        {
+          "value": 30,
+          "text": "销售管理奖励",
+          "children": null
+        },
+        {
+          "value": 29,
+          "text": "市占率奖励",
+          "children": null
+        },
+        {
+          "value": 28,
+          "text": "零售达成奖励",
+          "children": null
+        },
+        {
+          "value": 27,
+          "text": "综合评比奖励",
+          "children": null
+        },
+        {
+          "value": 26,
+          "text": "售后评比奖励",
+          "children": null
+        },
+        {
+          "value": 25,
+          "text": "销售评比奖励",
+          "children": null
+        },
+        {
+          "value": 24,
+          "text": "固定折扣",
+          "children": null
+        },
+        {
+          "value": 44,
+          "text": "提车达成奖励",
+          "children": null
+        },
+        {
+          "value": 41,
+          "text": "试乘试驾车支援",
+          "children": null
+        }
+      ]
+    },
+    {
+      "value": "220,23,22,20,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,21",
+      "text": "月度",
+      "children": [
+        {
+          "value": 220,
+          "text": "延保支援",
+          "children": null
+        },
+        {
+          "value": 23,
+          "text": "其他奖励",
+          "children": null
+        },
+        {
+          "value": 22,
+          "text": "电商奖励",
+          "children": null
+        },
+        {
+          "value": 20,
+          "text": "活动费用支援",
+          "children": null
+        },
+        {
+          "value": 18,
+          "text": "保有客户支援",
+          "children": null
+        },
+        {
+          "value": 17,
+          "text": "置换支援",
+          "children": null
+        },
+        {
+          "value": 16,
+          "text": "消费信贷支援",
+          "children": null
+        },
+        {
+          "value": 15,
+          "text": "人员奖励",
+          "children": null
+        },
+        {
+          "value": 14,
+          "text": "销售竞赛奖励",
+          "children": null
+        },
+        {
+          "value": 13,
+          "text": "保养赠送支援",
+          "children": null
+        },
+        {
+          "value": 12,
+          "text": "交车礼品支援",
+          "children": null
+        },
+        {
+          "value": 11,
+          "text": "保险赠送支援",
+          "children": null
+        },
+        {
+          "value": 10,
+          "text": "现金促销支援",
+          "children": null
+        },
+        {
+          "value": 9,
+          "text": "特殊车型补贴",
+          "children": null
+        },
+        {
+          "value": 8,
+          "text": "超额奖励",
+          "children": null
+        },
+        {
+          "value": 7,
+          "text": "目标达成奖励",
+          "children": null
+        },
+        {
+          "value": 6,
+          "text": "零售奖励",
+          "children": null
+        },
+        {
+          "value": 5,
+          "text": "特殊车型补贴",
+          "children": null
+        },
+        {
+          "value": 4,
+          "text": "超额奖励",
+          "children": null
+        },
+        {
+          "value": 3,
+          "text": "财务金融支援",
+          "children": null
+        },
+        {
+          "value": 2,
+          "text": "目标达成奖励",
+          "children": null
+        },
+        {
+          "value": 1,
+          "text": "提车奖励",
+          "children": null
+        },
+        {
+          "value": 21,
+          "text": "广宣投放支援",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "result_msg": "执行成功"
+}

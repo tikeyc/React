@@ -1,0 +1,130 @@
+﻿{
+  "result_code": "200",
+  "data": [
+    {
+      "title": "2018年5月利润结构对比",
+      "data": [
+        {
+          "name": "细分市场",
+          "discount": "1,500",
+          "discountPercent": "12.0%",
+          "saleProfit": "1,500",
+          "saleProfitPercent": "5.0%",
+          "cost": "23,500",
+          "costPercent": "83.0%",
+          "discountName": "折扣",
+          "saleProfitName": "销售利润",
+          "costName": "成本",
+          "discountProgress": 0.15,
+          "saleProfitProgress": 0.15,
+          "costProgress": 0.2
+        },
+        {
+          "name": "昂科威",
+          "discount": "1,500",
+          "discountPercent": "12.0%",
+          "saleProfit": "1,500",
+          "saleProfitPercent": "5.0%",
+          "cost": "23,500",
+          "costPercent": "83.0%",
+          "discountName": "折扣",
+          "saleProfitName": "销售利润",
+          "costName": "成本",
+          "discountProgress": 0.20,
+          "saleProfitProgress": 0.15,
+          "costProgress": 0.10
+        },
+        {
+          "name": "竞品1",
+          "discount": "1,500",
+          "discountPercent": "12.0%",
+          "saleProfit": "1,500",
+          "saleProfitPercent": "5.0%",
+          "cost": "23,500",
+          "costPercent": "83.0%",
+          "discountName": "折扣",
+          "saleProfitName": "销售利润",
+          "costName": "成本",
+          "discountProgress": 0.05,
+          "saleProfitProgress": 0.04,
+          "costProgress": 0.10
+        },
+        {
+          "name": "竞品2",
+          "discount": "1,500",
+          "discountPercent": "12.0%",
+          "saleProfit": "1,500",
+          "saleProfitPercent": "5.0%",
+          "cost": "23,500",
+          "costPercent": "83.0%",
+          "discountName": "折扣",
+          "saleProfitName": "销售利润",
+          "costName": "成本",
+          "discountProgress": 0.23,
+          "saleProfitProgress": 0.06,
+          "costProgress": 0.07
+        },
+        {
+          "name": "竞品3",
+          "discount": "1,500",
+          "discountPercent": "12.0%",
+          "saleProfit": "1,500",
+          "saleProfitPercent": "5.0%",
+          "cost": "23,500",
+          "costPercent": "83.0%",
+          "discountName": "折扣",
+          "saleProfitName": "销售利润",
+          "costName": "成本",
+          "discountProgress": 0.17,
+          "saleProfitProgress": 0.26,
+          "costProgress": 0.23
+        },
+        {
+          "name": "竞品4",
+          "discount": "1,500",
+          "discountPercent": "12.0%",
+          "saleProfit": "1,500",
+          "saleProfitPercent": "5.0%",
+          "cost": "23,500",
+          "costPercent": "83.0%",
+          "discountName": "折扣",
+          "saleProfitName": "销售利润",
+          "costName": "成本",
+          "discountProgress": 0.06,
+          "saleProfitProgress": 0.14,
+          "costProgress": 0.12
+        },
+        {
+          "name": "竞品5",
+          "discount": "1,500",
+          "discountPercent": "12.0%",
+          "saleProfit": "1,500",
+          "saleProfitPercent": "5.0%",
+          "cost": "23,500",
+          "costPercent": "83.0%",
+          "discountName": "折扣",
+          "saleProfitName": "销售利润",
+          "costName": "成本",
+          "discountProgress": 0.04,
+          "saleProfitProgress": 0.12,
+          "costProgress": 0.08
+        },
+        {
+          "name": "竞品6",
+          "discount": "1,500",
+          "discountPercent": "12.0%",
+          "saleProfit": "1,500",
+          "saleProfitPercent": "5.0%",
+          "cost": "23,500",
+          "costPercent": "83.0%",
+          "discountName": "折扣",
+          "saleProfitName": "销售利润",
+          "costName": "成本",
+          "discountProgress": 0.1,
+          "saleProfitProgress": 0.08,
+          "costProgress": 0.1
+        }
+      ]
+    }
+  ]
+}

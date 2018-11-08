@@ -1,0 +1,74 @@
+.policy-auth-tips-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.75;
+}
+.policy-auth-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  &:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+  }
+}
+.policy-auth-content {
+  display: inline-block;
+  vertical-align: middle;
+  background: #FFF;
+  width: 400px;
+  color: #666;
+  font-size: 16px;
+  border: 1px solid #AAA;
+  border-radius: 4px;
+  text-align: left;
+}
+.policy-auth-box-header {
+  position: relative;
+  padding: 15px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #303133;
+}
+.policy-auth-message {
+  position: relative;
+  padding: 10px 15px;
+  color: #606266;
+  font-size: 14px;
+}
+.policy-auth-footer {
+  padding: 5px 15px 0;
+  text-align: right;
+  margin-bottom: 10px;
+
+  button {
+    width: 80px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #329ACD;
+    background: #FFF;
+    color: #329ACD;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 28px;
+  }
+  .btn-submit {
+    background: #329ACD;
+    color: #FFF;
+  }
+}

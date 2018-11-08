@@ -1,0 +1,84 @@
+@loadMoreHeight: 27px;
+
+.ways-table {
+  position: relative;
+  min-height: 28px;
+  font-size: 12px;
+
+  table {
+    width: 100%;
+    background: #fff;
+
+    th, td {
+      padding: 5px;
+      white-space: nowrap;
+    }
+
+    th {
+      color: #000;
+      background-color: #EFEEEE;
+      font-weight: bold;
+      font-weight: normal;
+    }
+
+    input {
+      vertical-align: middle;
+    }
+  }
+
+  // 滚动条组件适配调整
+  .scroll-wrapper {
+    width: 100%;
+    max-height: inherit;
+  }
+  .scrollbar-outer {
+    .ways-table-header {
+      margin-right: 12px;
+    }
+  }
+}
+
+.ways-table-header,
+.ways-table-body-outer {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ways-table-visible-scroll-x .ways-table-body-outer {
+  padding-bottom: 12px;
+}
+
+.ways-table-fixed-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ways-table-header {
+  right: 0;
+  margin-right: 0;
+}
+
+.ways-table-bordered table {
+  th {
+    border: 1px solid #E4E1E2;
+    box-shadow: 1px 1px 0px 0px #fff inset;
+  }
+
+  td {
+    border: 1px solid #E4E1E2;
+  }
+}
+
+.ways-table-pagination {
+  padding: 16px 0;
+  text-align: center;
+}
+
+.ways-table-selection-column {
+  text-align: center;
+  width: 62px;
+  min-width: 62px;
+}

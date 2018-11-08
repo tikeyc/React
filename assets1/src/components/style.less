@@ -1,0 +1,25 @@
+@link-color: #3675b4;
+@link-active-color: #0287CC;
+@page-min-width: 1200px;
+
+.radius_box(@bg, @width, @height, @left: 0, @right: 0, @top: 0) when not (@bg = "") {
+  background: url(@bg);
+}
+.radius_box(@bg, @width, @height, @left: 0, @right: 0, @top: 0) {
+  content: ""; width: @width + 0px; height: @height + 0px; position: absolute; top: @top + 0px;
+}
+
+/* 隐藏过长的字符，用...代替 */
+.ellipsis() {
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+/* 禁止选择文本 */
+.disSelect() {
+  user-select         : none;
+  -o-user-select      : none;
+  -moz-user-select    : none;
+  -webkit-user-select : none;
+}
+
+.inline-block() { display: inline-block; *display: inline; *zoom: 1; }

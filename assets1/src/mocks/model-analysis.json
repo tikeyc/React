@@ -1,0 +1,140 @@
+﻿{
+  "result_code": "200",
+  "data": [
+    {
+      "id": 1,
+      "name": "上期通用别克-昂科威促销概况",
+      "image": "http://wm.waysdata.com/cms_picture/car_picture/%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6/%E5%90%89%E5%88%A9/%E5%8D%9A%E8%B6%8A/2100_%E5%8D%9A%E8%B6%8A/%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6_%E5%90%89%E5%88%A9_2100_%E5%8D%9A%E8%B6%8A_%E5%8D%9A%E8%B6%8A_%E6%96%9C%E5%89%8D_20180411_101657258_small.jpg",
+      "data": {
+        "columns": [
+          {
+            "title": "车型",
+            "key": "carModel"
+          },
+          {
+            "title": "销量/同比(1-5月)",
+            "key": "salesAcc"
+          },
+          {
+            "title": "销量/环比(5月)",
+            "key": "sales"
+          },
+          {
+            "title": "年度固定折扣/环比(5月)",
+            "key": "yearDiscount"
+          },
+          {
+            "title": "年度考核奖励/环比(5月)",
+            "key": "yearKPI"
+          },
+          {
+            "title": "月度激励/环比(5月)",
+            "key": "monthExcitation"
+          },
+          {
+            "title": "利润/环比(5月)",
+            "key": "profit"
+          }
+        ],
+        "dataSource": [
+          {
+            "key": 1,
+            "carModel": "昂科威",
+            "salesAcc": "8,000",
+            "salesYoYValue": "2.2%",
+            "sales": "8,000",
+            "salesMomValue": "2.2%",
+            "yearDiscount": "8,000",
+            "yearMomDiscount": "-2.2%",
+            "yearKPI": "8,000",
+            "yearMomKPI": "2.2%",
+            "monthExcitation": "8,000",
+            "monthMoMValue": "2.2%",
+            "profit": "8,000",
+            "profitMoMValue": "-2.2%"
+          },
+          {
+            "key": 2,
+            "carModel": "B-SUV",
+            "salesAcc": "9,000",
+            "salesYoYValue": "2.2%",
+            "sales": "6,000",
+            "salesMomValue": "2.2%",
+            "yearDiscount": "7,000",
+            "yearMomDiscount": "2.2%",
+            "yearKPI": "4,000",
+            "yearMomKPI": "-2.2%",
+            "monthExcitation": "3,000",
+            "monthMoMValue": "2.2%",
+            "profit": "2,000",
+            "profitMoMValue": "2.2%"
+          },
+          {
+            "key": 3,
+            "carModel": "竞品1",
+            "salesAcc": "9,000",
+            "salesYoYValue": "2.2%",
+            "sales": "6,000",
+            "salesMomValue": "2.2%",
+            "yearDiscount": "7,000",
+            "yearMomDiscount": "2.2%",
+            "yearKPI": "4,000",
+            "yearMomKPI": "-2.2%",
+            "monthExcitation": "3,000",
+            "monthMoMValue": "2.2%",
+            "profit": "2,000",
+            "profitMoMValue": "2.2%"
+          },
+          {
+            "key": 4,
+            "carModel": "竞品4",
+            "salesAcc": "9,000",
+            "salesYoYValue": "2.2%",
+            "sales": "6,000",
+            "salesMomValue": "2.2%",
+            "yearDiscount": "7,000",
+            "yearMomDiscount": "2.2%",
+            "yearKPI": "4,000",
+            "yearMomKPI": "-2.2%",
+            "monthExcitation": "3,000",
+            "monthMoMValue": "2.2%",
+            "profit": "2,000",
+            "profitMoMValue": "2.2%"
+          },
+          {
+            "key": 5,
+            "carModel": "竞品4",
+            "salesAcc": "9,000",
+            "salesYoYValue": "2.2%",
+            "sales": "6,000",
+            "salesMomValue": "2.2%",
+            "yearDiscount": "7,000",
+            "yearMomDiscount": "2.2%",
+            "yearKPI": "4,000",
+            "yearMomKPI": "-2.2%",
+            "monthExcitation": "3,000",
+            "monthMoMValue": "2.2%",
+            "profit": "2,000",
+            "profitMoMValue": "2.2%"
+          },
+          {
+            "key": 6,
+            "carModel": "竞品4",
+            "salesAcc": "9,000",
+            "salesYoYValue": "2.2%",
+            "sales": "6,000",
+            "salesMomValue": "2.2%",
+            "yearDiscount": "7,000",
+            "yearMomDiscount": "2.2%",
+            "yearKPI": "4,000",
+            "yearMomKPI": "-2.2%",
+            "monthExcitation": "3,000",
+            "monthMoMValue": "2.2%",
+            "profit": "2,000",
+            "profitMoMValue": "2.2%"
+          }
+        ]
+      }
+    }
+  ]
+}

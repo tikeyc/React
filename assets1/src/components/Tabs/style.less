@@ -1,0 +1,57 @@
+.tabs {
+  position: relative;
+  .nav {
+    list-style-type: none;
+    padding: 0 5px;
+    border-bottom: 1px solid #D8E0E7;
+    background: #F1F1F1;
+    li {
+      display: inline-block;
+      a {
+        display: inline-block;
+        position: relative;
+        top: 1px;
+        padding: 3px 15px 4px;
+        margin-top: 3px;
+        line-height: 26px;
+        border: 1px solid transparent;
+        border-bottom: 0;
+      }
+      &.active a {
+        background: #FFF;
+        border: 1px solid #D8E0E7;
+        border-bottom: 0;
+        color: #000;
+        cursor: default;
+      }
+    }
+  }
+  &.bookmarks .nav{
+    background: #fff;
+
+    >li{
+      margin: 0 -15px 0 0;
+      >a{
+        padding: 0 30px;
+        height: 0;
+        line-height: 34px;
+        text-decoration: none;
+        color: #000;
+        border: none;
+        border-right: 30px solid transparent;
+        border-bottom: 34px solid #f1f1f1;
+        opacity: .7;
+        filter: alpha(opacity=70);
+      }
+      &.active >a{
+        background: transparent;
+        z-index: 3;
+        color: #fff;
+        // border-right: 34px solid transparent;
+        border-bottom: 34px solid #3675B4;
+        opacity: 1;
+        filter: alpha(opacity=100);
+      }
+    }
+  }
+}

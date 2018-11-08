@@ -1,0 +1,222 @@
+{
+  "result_code": "200",
+  "data": [
+    {
+      "columns": [
+        {
+          "title": "时间",
+          "key": "time"
+        },
+        {
+          "title": "汽车类别",
+          "key": "type",
+          "expandable": true
+        },
+        {
+          "title": "加权指导价（万）",
+          "key": "msrp"
+        },
+        {
+          "title": "总激励",
+          "key": "totalIncentive"
+        },
+        {
+          "title": "固定折扣",
+          "key": "discount"
+        },
+        {
+          "title": "考核奖励",
+          "key": "kpi"
+        },
+        {
+          "title": "月度激励",
+          "key": "monthKpi"
+        },
+        {
+          "title": "新能源国家补贴",
+          "key": "newEnegry"
+        },
+        {
+          "title": "单车利润",
+          "key": "profit"
+        }
+      ],
+      "dataSource": [
+        {
+          "key": 1,
+          "time": "201801",
+          "type": "整体市场",
+          "msrp": "25.63",
+          "totalIncentive": "6,500",
+          "discount": "3,000",
+          "kpi": "1,000",
+          "monthKpi": "500",
+          "newEnegry": "2,000",
+          "profit": "5,000",
+          "children": [
+            {
+              "key": 11,
+              "time": "",
+              "type": "AO-H",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            },
+            {
+              "key": 12,
+              "time": "",
+              "type": "A-L",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            },
+            {
+              "key": 13,
+              "time": "",
+              "type": "A-L",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            },
+            {
+              "key": 14,
+              "time": "",
+              "type": "A-L",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            }
+          ]
+        },
+        {
+          "key": 2,
+          "time": "201802",
+          "type": "整体市场",
+          "msrp": "25.63",
+          "totalIncentive": "6,500",
+          "discount": "3,000",
+          "kpi": "1,000",
+          "monthKpi": "500",
+          "newEnegry": "2,000",
+          "profit": "5,000",
+          "children": [
+            {
+              "key": 21,
+              "time": "",
+              "type": "AO-H",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            },
+            {
+              "key": 22,
+              "time": "",
+              "type": "A-L",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            },
+            {
+              "key": 23,
+              "time": "",
+              "type": "A-L",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            }
+          ]
+        },
+        {
+          "key": 3,
+          "time": "201801",
+          "type": "整体市场",
+          "msrp": "25.63",
+          "totalIncentive": "6,500",
+          "discount": "3,000",
+          "kpi": "1,000",
+          "monthKpi": "500",
+          "newEnegry": "2,000",
+          "profit": "5,000",
+          "children": [
+            {
+              "key": 31,
+              "time": "",
+              "type": "AO-H",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            },
+            {
+              "key": 32,
+              "time": "",
+              "type": "A-L",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            },
+            {
+              "key": 33,
+              "time": "",
+              "type": "A-L",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            },
+            {
+              "key": 34,
+              "time": "",
+              "type": "A-L",
+              "msrp": "25.63",
+              "totalIncentive": "6,500",
+              "discount": "3,000",
+              "kpi": "1,000",
+              "monthKpi": "500",
+              "newEnegry": "2,000",
+              "profit": "5,000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

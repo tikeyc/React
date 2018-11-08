@@ -1,0 +1,83 @@
+.header {
+  padding-bottom: 16px;
+  font-size: 18px;
+  color: #003334;
+  position: relative;
+  padding-left: 18px;
+  margin-left: -20px;
+  &:before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 20px;
+    background-color: #329ACD;
+    position: absolute;
+    left: 0;
+  }
+}
+.more {
+  font-size: 14px;
+  color: #319CD0;
+  float: right;
+  line-height: 20px;
+}
+.article {
+  border-bottom: 1px solid #EAEBED;
+  padding: 16px 0 0 0;
+}
+.first-article {
+  width: 300px;
+  height: 200px;
+  background-color: #ccc;
+  position: relative;
+  background: url(@/pages/components/Article/ExplanationList/hot.png);
+  .title {
+    bottom: 0;
+    padding: 0 20px;
+    color: #FFF;
+    position: absolute;
+    font-size: 14px;
+    min-height: 83px;
+  }
+  .description {
+    padding: 0 20px;
+    color: #CCC;
+    position: relative;
+  }
+}
+.first-article-mask {
+  background-color: #000;
+  color: #000;
+  min-height: 90px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px 20px 5px 20px;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+.title {
+  color: #2E6292;
+  display: inline-block;
+  margin-bottom: 5px;
+  &:hover {
+    color: #DF5052;
+    text-decoration: underline;
+  }
+}
+.description {
+  color: #838383;
+  font-size: 12px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+.no-articles {
+  text-align: center;
+  font-size: 18px;
+  line-height: 90px;
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

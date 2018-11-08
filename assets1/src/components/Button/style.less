@@ -1,0 +1,37 @@
+@import '../style';
+
+.btn {
+  line-height: 24px;
+  height: 26px;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #666;
+  position: relative;
+  display: inline-block;
+  background-color: #FFF;
+  border: 1px solid #D3D3D3;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  &.btn:active {
+    background-color: lightblue;
+  }
+
+  &.btn-primary {
+    background-color: @link-color;
+    color: #FFF;
+    border-color: @link-color;
+  }
+  &.btn-agree {
+    background-color: #008000;
+    color: #FFF;
+    border-color: #008000;
+  }
+
+  &[disabled],
+  &.disabled {
+    cursor: default;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+    opacity: .3;
+  }
+}

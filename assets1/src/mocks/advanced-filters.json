@@ -1,0 +1,16 @@
+﻿{
+  "result_code": "200",
+  "data": {
+    "show": true,
+    "data":[
+      {
+        "value": 1,
+        "text": "高级1"
+      },
+      {
+        "value": 2,
+        "text": "高级2"
+      }
+    ]
+  }
+}

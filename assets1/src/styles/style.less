@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #E4E8EB;
+  font-family: "微软雅黑";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// .clearfix() {
+//   &:before,
+//   &:after {
+//     content: " ";
+//     display: table;
+//   }
+//   &:after {
+//     clear: both;
+//   }
+// }
+//
+// :global .clearfix {
+//   .clearfix();
+// }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  th {
+    font-weight: normal;
+  }
+}
+:global .ways-table table {
+  th, td {
+    padding: 12px 5px!important;
+  }
+}
+
+:global .ways-table table th,
+:global .ways-table table td {
+  padding: 12px 5px;
+}
+:global .btn.btn-primary {
+  background: #3398CC!important;
+  border-color: #3398CC!important;
+}
+
+:global {
+  .text-center {
+    text-align: center;
+  }
+  .text-right {
+    text-align: right;
+  }
+
+  // .pace .pace-activity {
+  //   position: fixed;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   background: #FFF;
+  //   z-index: 2000;
+  //   opacity: 0.5;
+  //   pointer-events: all;
+  // }
+  // .pace .pace-progress {
+  //   z-index: 2001;
+  //   position: fixed;
+  //   left: 0;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   background: transparent;
+  //   transform: none!important;
+  // }
+  // .pace .pace-progress-inner {
+  //   position: fixed;
+  //   left: 50%;
+  //   top: 50%;
+  //   width: 32px;
+  //   height: 32px;
+  //   margin-left: -16px;
+  //   margin-top: -16px;
+  //   background: url(../assets/loading.gif) no-repeat;
+  // }
+  // .pace-inactive {
+  //   .pace-activity,
+  //   .pace-progress {
+  //     display: none;
+  //   }
+  // }
+}
