@@ -1,0 +1,334 @@
+﻿@import "../../styles/index.less";
+
+/* 表格控件 */
+.ways-data-grid-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+  &:hover {
+    height: 100%;
+  }
+  .data-grid-prev {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: inline-block;
+    overflow: hidden;
+    width: 25px;
+    height: 16px;
+    background: url(./go-back.png) no-repeat scroll 0 0;
+    color: transparent;
+    font-size: 0;
+  }
+}
+:root {
+  .ways-data-grid thead th {
+    &.sort .before {
+      border-right: 5px solid transparent;
+      border-left: 5px solid transparent;
+      border-bottom: 0;
+      border-top: solid 5px #CCC;
+    }
+    &.asc .before {
+      border-top: solid 5px #CCC;
+    }
+    &.desc .before {
+      border-top: solid 5px #288DF0;
+    }
+  }
+}
+.ways-data-grid {
+  width: 100%;
+  border-collapse: separate;
+  thead {
+    th {
+      text-align: center;
+      background: #efeeee;
+      padding: 6px 5px;
+      border-top: 1px solid #fff;
+      border-right: 1px solid #D7D5D6;
+      border-left: 1px solid #fff;
+      border-bottom: 1px solid #D7D5D6;
+      height: 17px;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+      white-space: nowrap;
+
+      &.sort {
+        span {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          padding-right: 15px;
+        }
+        .after {
+          position: absolute;
+          top: 3px;
+          right: 0;
+          clear: both;
+          display: inline-block;
+          border-right: 5px solid transparent;
+          border-left: 5px solid transparent;
+          border-top: 0;
+          border-bottom: solid 5px #CCC;
+        }
+        .before {
+          position: absolute;
+          top: 9px;
+          right: 0;
+          clear: both;
+          display: inline-block;
+          border-right: 5px solid transparent;
+          border-left: 5px solid transparent;
+          border-bottom: 0;
+          border-top: solid 5px #CCC;
+          border-right: 4px solid transparent\9;
+          border-left: 4px solid transparent\9;
+          border-top: solid 4px #CCC\9;
+          right: 1px\9;
+        }
+      }
+      &.asc{
+        .after {
+          border-top: 0;
+          border-bottom: solid 5px #288DF0;
+        }
+        .before {
+          border-bottom: 0;
+          border-top: solid 5px #CCC;
+          border-top: solid 4px #CCC\9;
+        }
+      }
+      &.desc{
+        .after {
+          border-top: 0;
+          border-bottom: solid 5px #CCC;
+        }
+        .before {
+          border-bottom: 0;
+          border-top: solid 5px #288DF0;
+          border-top: solid 4px #288DF0\9;
+        }
+      }
+    }
+    tr:first-child th:last-child {
+      border-right: 0;
+    }
+  }
+  tbody {
+    .wgfirstrow {
+      height: 0;
+      td {
+        height: 0;
+        padding: 0 5px;
+        border: none;
+        overflow: hidden;
+      }
+    }
+    tr.active td {
+      background: #B9D1EB;
+      &:first-child {
+        border-left: 4px solid #86A7D4;
+      }
+    }
+    tr.hover td {
+      background: #E0E0E0!important;
+    }
+    td {
+      background: #fff;
+      padding: 5px;
+      border-right: 1px solid #fff;
+      border-left: 1px solid transparent;
+      white-space: nowrap;
+      a {
+        color: @link-color;
+      }
+      span.indent {
+        display: inline-block;
+        text-indent: 2em;
+      }
+    }
+    .odd td {
+      background: #F3F3F3;
+    }
+    td,
+    .odd td {
+      &.highlight-negative {
+        color: #B5211D !important;
+      }
+      &.highlight-speedup {
+        background: #DBE6F2;
+      }
+    }
+    tr.no-data {
+      td {
+        text-align: center;
+        line-height: 100px;
+        font-size: 18px;
+        color: #ccc;
+      }
+      &.hover td {
+        background: none;
+      }
+    }
+    .drill-loading {
+      background: url(./loading.gif) no-repeat 0 !important;
+      padding-right: 5px;
+    }
+  }
+  .ico-settings {
+    .inline-block;
+    width: 20px;
+    height: 15px;
+    background: url(./button.png) no-repeat scroll -8px -208px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  .grid-ico() {
+    display: inline-block;
+    background: url(./dms.png) no-repeat scroll;
+    width: 12px;
+    height: 14px;
+  }
+
+  .grid-download,
+  .grid-edit,
+  .grid-delete {
+    a {
+      .grid-ico;
+      display: inline-block;
+      width: 20px;
+      height: 18px;
+    }
+  }
+  .grid-icon a, a.grid-icon {
+    .grid-ico; background-position: -40px -32px;
+  }
+  .grid-download a {
+    background-position: -281px 0;
+    &:hover {
+      background-position: -85px 0;
+    }
+  }
+  .grid-edit a {
+    background-position: -125px 0;
+    &:hover {
+      background-position: -165px 0;
+    }
+  }
+  .grid-delete a {
+    background-position: -245px 0;
+    &:hover {
+      background-position: -200px 0;
+    }
+  }
+  .selected {
+    .grid-icon a,
+    a.grid-icon {
+      background-position: -3px -32px;
+    }
+  }
+  .tendency {
+    display: inline-block;
+    width: 12px;
+    height: 1px;
+    overflow: hidden;
+    border-top: 3px solid #7DA3CD;
+    &.up, &.down {
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      width: 0;
+    }
+    &.down {
+      border-top: 6px solid #D35552;
+      border-bottom: none;
+    }
+    &.up {
+      border-bottom: 6px solid #7CC550;
+      border-top: none;
+    }
+  }
+  tbody .my-manufacturer td {
+    background: #DBE6F2;
+    &:first-child {
+      border-left: 2px solid #9CB7D9;
+      padding: 0 5px 0 3px;
+    }
+  }
+  a {
+    white-space: nowrap; cursor: pointer;
+  }
+  .drill-tree-loading {
+    background: url(./loading.gif) no-repeat 7px;
+  }
+  a.btn-drill {
+    display: inline-block;
+    width: 26px;
+    height: 16px;
+    background: url(./go-back_r.png) no-repeat 0 center;
+  }
+
+  .active{
+    a.btn-drill {
+      background: url(./go-back_r_clicked.png) no-repeat 0 2px;
+      cursor: default;
+    }
+  }
+
+  .percent {
+    display: inline-block;
+    height: 12px;
+    background: #376193;
+    margin-top: 3px;
+    margin-left: -5px;
+    line-height: 12px;
+    position: relative;
+    vertical-align: top;
+    &.gray {
+      background: #BEBFBE;
+    }
+    &.red {
+      background: #B62627;
+    }
+    &.right {
+      margin-right: -5px;
+      margin-left: 0;
+      float: right;
+    }
+    span {
+      position: absolute;
+      right: 103%;
+    }
+  }
+  .drill-tree-space, .drill-tree-ico {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px 0 0;
+  }
+  .drill-tree-ico {
+    background: #a8c8ef url(./ways-grid-open-close.png) no-repeat scroll -1px -103px;
+    text-align: center;
+  }
+
+  .extended {
+    .drill-tree-ico {
+      background-position: -1px -143px;
+    }
+  }
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+

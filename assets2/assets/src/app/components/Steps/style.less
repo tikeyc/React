@@ -1,0 +1,69 @@
+.steps {
+  padding: 10px 10px 10px 30px;
+
+  .step {
+    padding-bottom: 10px;
+    border-left: 1px solid #999;
+    position: relative;
+    min-height: 46px;
+
+    &.last-child {
+      border-left: 0;
+      padding-bottom: 0;
+    }
+
+    // &.prev-step-isnt-finishedx:before,
+    &.prev-step-isnt-finished .prev-step-isnt-finished-before {
+      // content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 18px;
+      background: #fff;
+      z-index: 11;
+      // opacity: .8;
+      // -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    }
+    // &.prev-step-isnt-finishedx:after,
+    &.prev-step-isnt-finished .prev-step-isnt-finished-after {
+      // content: '请先完成上一步操作';
+      display: block;
+      position: absolute;
+      top: 7px;
+      right: 0;
+      bottom: 0;
+      left: 18px;
+      z-index: 11;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+
+    .step-number {
+      cursor: pointer;
+      font-size: 22px;
+      border: 1px solid #999;
+      color: #999;
+      width: 36px;
+      height: 36px;
+      border-radius: 18px;
+      text-align: center;
+      line-height: 34px;
+      margin-left: -18px;
+      background: #fff;
+      float: left;
+    }
+    .step-content {
+      vertical-align: top;
+      margin-left: 18px;
+      .toolbar > h2 {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .toolbar {
+    border-bottom: 0;
+  }
+}

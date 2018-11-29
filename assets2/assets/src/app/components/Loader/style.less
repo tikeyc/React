@@ -1,0 +1,288 @@
+.ways-loader {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  text-align: center;
+  z-index: 1000;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.ways-loader:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 500rem;
+  border: .23333333em solid rgba(0, 0, 0, .1);
+}
+.ways-loader:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: loader .6s linear;
+  animation: loader .6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #767676 transparent transparent;
+  border-style: solid;
+  border-width: .23333333em;
+  -webkit-box-shadow: 0 0 0 1px transparent;
+  box-shadow: 0 0 0 1px transparent;
+}
+@-webkit-keyframes loader {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  };
+}
+@keyframes loader {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  };
+}
+.mini.ways-loader:after,
+.mini.ways-loader:before {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0 0 -.5rem;
+}
+.tiny.ways-loader:after,
+.tiny.ways-loader:before {
+  width: 1.14285714rem;
+  height: 1.14285714rem;
+  margin: 0 0 0 -.57142857rem;
+}
+.small.ways-loader:after,
+.small.ways-loader:before {
+  width: 1.71428571rem;
+  height: 1.71428571rem;
+  margin: 0 0 0 -.85714286rem;
+}
+.ways-loader:after,
+.ways-loader:before {
+  width: 2.28571429rem;
+  height: 2.28571429rem;
+  margin: 0 0 0 -1.14285714rem;
+}
+.large.ways-loader:after,
+.large.ways-loader:before {
+  width: 3.42857143rem;
+  height: 3.42857143rem;
+  margin: 0 0 0 -1.71428571rem;
+}
+.big.ways-loader:after,
+.big.ways-loader:before {
+  width: 3.71428571rem;
+  height: 3.71428571rem;
+  margin: 0 0 0 -1.85714286rem;
+}
+.huge.ways-loader:after,
+.huge.ways-loader:before {
+  width: 4.14285714rem;
+  height: 4.14285714rem;
+  margin: 0 0 0 -2.07142857rem;
+}
+.massive.ways-loader:after,
+.massive.ways-loader:before {
+  width: 4.57142857rem;
+  height: 4.57142857rem;
+  margin: 0 0 0 -2.28571429rem;
+}
+.dimmer .ways-loader {
+  display: block;
+}
+.dimmer .ways-loader {
+  color: rgba(255, 255, 255, .9);
+}
+.dimmer .ways-loader:before {
+  border-color: rgba(255, 255, 255, .15);
+}
+.dimmer .ways-loader:after {
+  border-color: #fff transparent transparent;
+}
+.inverted.dimmer .ways-loader {
+  color: rgba(0, 0, 0, .87);
+}
+.inverted.dimmer .ways-loader:before {
+  border-color: rgba(0, 0, 0, .1);
+}
+.inverted.dimmer .ways-loader:after {
+  border-color: #767676 transparent transparent;
+}
+.text.ways-loader {
+  width: auto!important;
+  height: auto!important;
+  text-align: center;
+  font-style: normal;
+}
+.indeterminate.ways-loader:after {
+  animation-direction: reverse;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+}
+.ways-loader.active,
+.ways-loader.visible {
+  display: block;
+}
+.ways-loader.disabled,
+.ways-loader.hidden {
+  display: none;
+}
+.inverted.dimmer .mini.ways-loader,
+.mini.ways-loader {
+  width: 1rem;
+  height: 1rem;
+  font-size: .78571429em;
+}
+.inverted.dimmer .tiny.ways-loader,
+.tiny.ways-loader {
+  width: 1.14285714rem;
+  height: 1.14285714rem;
+  font-size: .85714286em;
+}
+.inverted.dimmer .small.ways-loader,
+.small.ways-loader {
+  width: 1.71428571rem;
+  height: 1.71428571rem;
+  font-size: .92857143em;
+}
+.inverted.dimmer .ways-loader,
+.ways-loader {
+  width: 2.28571429rem;
+  height: 2.28571429rem;
+  font-size: 1em;
+}
+.inverted.dimmer .large.ways-loader,
+.large.ways-loader {
+  width: 3.42857143rem;
+  height: 3.42857143rem;
+  font-size: 1.14285714em;
+}
+.big.ways-loader,
+.inverted.dimmer .big.ways-loader {
+  width: 3.71428571rem;
+  height: 3.71428571rem;
+  font-size: 1.28571429em;
+}
+.huge.ways-loader,
+.inverted.dimmer .huge.ways-loader {
+  width: 4.14285714rem;
+  height: 4.14285714rem;
+  font-size: 1.42857143em;
+}
+.inverted.dimmer .massive.ways-loader,
+.massive.ways-loader {
+  width: 4.57142857rem;
+  height: 4.57142857rem;
+  font-size: 1.71428571em;
+}
+.mini.text.ways-loader {
+  min-width: 1rem;
+  padding-top: 1.78571429rem;
+}
+.tiny.text.ways-loader {
+  min-width: 1.14285714rem;
+  padding-top: 1.92857143rem;
+}
+.small.text.ways-loader {
+  min-width: 1.71428571rem;
+  padding-top: 2.5rem;
+}
+.text.ways-loader {
+  min-width: 2.28571429rem;
+  padding-top: 3.07142857rem;
+}
+.large.text.ways-loader {
+  min-width: 3.42857143rem;
+  padding-top: 4.21428571rem;
+}
+.big.text.ways-loader {
+  min-width: 3.71428571rem;
+  padding-top: 4.5rem;
+}
+.huge.text.ways-loader {
+  min-width: 4.14285714rem;
+  padding-top: 4.92857143rem;
+}
+.massive.text.ways-loader {
+  min-width: 4.57142857rem;
+  padding-top: 5.35714286rem;
+}
+.inverted.ways-loader {
+  color: rgba(255, 255, 255, .9);
+}
+.inverted.ways-loader:before {
+  border-color: rgba(255, 255, 255, .15);
+}
+.inverted.ways-loader:after {
+  border-top-color: #fff;
+}
+.inline.ways-loader {
+  position: relative;
+  vertical-align: middle;
+  margin: 0;
+  left: 0;
+  top: 0;
+  -webkit-transform: none;
+  transform: none;
+}
+.inline.ways-loader.active,
+.inline.ways-loader.visible {
+  display: inline-block;
+}
+.centered.inline.ways-loader.active,
+.centered.inline.ways-loader.visible {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// IE8兼容
+// .ways-loader {
+//   background: url(./loading.gif) no-repeat top center;
+//   &:before,
+//   &:after {
+//     display: none;
+//   }
+//   &.mini {
+//     background-size: 14px;
+//   }
+//   &.tiny {
+//     background-size: 16px;
+//   }
+//   &.small {
+//     background-size: 24px;
+//   }
+//   &.medium {
+//     background-size: 32px;
+//   }
+//   &.large {
+//     background-size: 48px;
+//   }
+//   &.big {
+//     background-size: 52px;
+//   }
+//   &.huge {
+//     background-size: 58px;
+//   }
+//   &.massive {
+//     background-size: 64px;
+//   }
+// }

@@ -1,0 +1,70 @@
+.form-group {
+  position: relative;
+
+  label {
+    margin-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  &.text-right input {
+    text-align: right;
+  }
+
+  &.has-unit input {
+    padding-right: 18px;
+    text-align: right;
+  }
+
+  .input-unit {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    pointer-events: none;
+  }
+  .unit {
+    line-height: 26px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  .date-frame {
+    display: inline-block;
+    span {
+      vertical-align: middle;
+      margin: 0 5px;
+    }
+  }
+}
+
+input.form-control {
+  height: 26px;
+  border: 1px solid #cfcfcf;
+  line-height: 26px;
+  padding: 0 4px;
+  vertical-align: middle;
+  width: 120px;
+}
+
+.form-inline {
+  .form-group {
+    display: inline-block;
+  }
+}
+
+.form-horizontal {
+  .form-group {
+    white-space: nowrap;
+    margin: 2px 0;
+
+    label {
+      width: 100px;
+      display: inline-block;
+      text-align: right;
+    }
+
+    input {
+      width: 260px;
+    }
+  }
+}

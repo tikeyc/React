@@ -1,0 +1,110 @@
+@import '../../../../styles/index';
+
+.page-wrapper {
+  &.aside-closed {
+    .page-aside {
+      width: 10px;
+      overflow: hidden;
+      .nav {
+        display: none;
+      }
+      .btn-close {
+        left: 0;
+
+        .icon {
+          border-top: 4px solid transparent;
+          border-right: none;
+          border-bottom: 4px solid transparent;
+          border-left: 4px solid #A1B9D5;
+        }
+      }
+    }
+    .page-content {
+      margin-left: 10px;
+    }
+  }
+
+  &.no-aside {
+    .page-content {
+      margin-left: 0;
+    }
+  }
+}
+
+.page-aside {
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  bottom: 34px;
+  left: 0;
+  width: 160px;
+  background: #fff;
+
+  .nav {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fff;
+    z-index: 1;
+    padding: 0 5px;
+    height: 100%;
+
+    .title {
+      color: #376092;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 10px 7px 5px;
+      cursor: default;
+    }
+
+    .list li {
+      line-height: 26px;
+
+      a {
+        color: #343434;
+        display: block;
+        padding: 0 7px;
+        &:hover {
+          color: #375F91;
+        }
+      }
+
+      &.active a {
+        background: #E6EAF0;
+        color: @link-color;
+      }
+    }
+  }
+
+  .btn-close {
+    width: 10px;
+    background: #ECECEC;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    bottom: 34px;
+    left: 160px;
+    z-index: 1;
+    cursor: pointer;
+
+    .icon {
+      width: 0;
+      height: 0;
+      border-top: 4px solid transparent;
+      border-right: 4px solid #A1B9D5;
+      border-bottom: 4px solid transparent;
+      border-left: none;
+      position: absolute;
+      left: 3px;
+      top: 50%;
+    }
+  }
+
+  .back-home {
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 10px 0 10px;
+    display: inline-block;
+  }
+}

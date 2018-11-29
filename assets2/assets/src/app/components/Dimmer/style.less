@@ -1,0 +1,86 @@
+.ways-dimmer {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1000;
+
+  vertical-align: middle;
+  line-height: 1;
+
+  background-color: rgba(0, 0, 0, .85);
+  // 兼容IE8
+  // background-color: transparent;
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8000000,endColorstr=#C8000000);
+  // zoom: 1;
+
+  &.active {
+    display: block;
+  }
+
+  &:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+  &.top:before {
+    vertical-align: top;
+  }
+  &.bottom:before {
+    vertical-align: bottom;
+  }
+
+  &.page {
+    position: fixed;
+  }
+
+  &.inverted {
+    background-color: rgba(255, 255, 255, .85);
+  }
+}
+
+.ways-dimmable {
+  position: relative;
+
+  .blurring.dimmed&>:not(.ways-dimmer) {
+    -webkit-filter: blur(5px) grayscale(.7);
+    filter: blur(5px) grayscale(.7);
+  }
+  .blurring&>.ways-dimmer {
+    background-color: rgba(0, 0, 0, .6);
+  }
+  .blurring&>.ways-dimmer.inverted {
+    background-color: rgba(255, 255, 255,.6);
+  }
+}
+
+.ways-dimmer {
+  .ways-loader {
+    display: block;
+    color: rgba(255, 255, 255, .9);
+  }
+  .ways-loader:before {
+    border-color: rgba(255,255,255,.15);
+  }
+  .ways-loader:after {
+    border-color: #fff transparent transparent;
+  }
+
+  &.inverted {
+    .ways-loader {
+      color: rgba(0, 0, 0, .87);
+    }
+    .ways-loader:before {
+      border-color: rgba(0, 0, 0, .15);
+    }
+    .ways-loader:after {
+      border-color: #767676 transparent transparent;
+    }
+  }
+}
+

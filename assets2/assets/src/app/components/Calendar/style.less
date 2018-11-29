@@ -1,0 +1,176 @@
+﻿@import '../../styles/index.less';
+
+/* 日历组件 */
+.waysdatepicker {
+  background: #fff url(./icon.png) no-repeat right 2px;
+  width: 100px;
+  font-size: 12px;
+}
+.ways-popup-calendar {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+
+  .text-field {
+      height: 24px;
+      border: 1px solid #cfcfcf;
+      line-height: 24px;
+      padding: 0 4px;
+  }
+}
+.ui-popup {
+    border: 1px solid @link-color;
+    background: #fff; font-size: 12px; top: 28px;left:-1px;
+    .ui-popup-content { position: relative; z-index: 2; }
+    .ui-calendar-header {
+        td { background: #3675B4; }
+        .ui-nav { font-size: 22px; line-height: 24px; width: 30px; height: 32px; }
+        .ui-prev a, .ui-next a {
+            vertical-align: 3px; font-size: 24px; text-align: center;
+        }
+        .ui-current { text-align: center; color: #fff; }
+        a { display: block; color: #fff; height: 26px; }
+    }
+    tbody {
+        .ui-container {
+            padding: 2px 3px 2px 2px;
+            a {
+                display: inline-block;
+                background: #EAF4FB;
+                line-height: 28px;
+                border: 1px solid #C5DBEC;
+                color: #51729D;
+                width: 40px;
+                text-align: center;
+                &.selected { background: @link-color; color: #fff; }
+                &:hover { background: #9AB8D5; color: #fff; }
+                &.disabled {
+                    background: #F7F7F7;
+                    color: #DDD;
+                    border: 1px solid #EEE;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+    .ui-year {
+        .ui-container {
+            padding: 3px;
+            td {
+                padding: 2px;
+            }
+        }
+        .ui-calendar-content {
+            a { width: 41px; text-align: center; line-height: 34px; }
+        }
+    }
+    .ui-month {
+        .ui-current { cursor: pointer; }
+        .ui-container {
+            padding: 3px;
+            td {
+                padding: 2px;
+            }
+        }
+        .ui-calendar-content {
+            a { width: 41px; text-align: center; line-height: 34px; }
+        }
+    }
+    .ui-day {
+        .ui-current { cursor: pointer; }
+        thead th {
+            text-align: center;
+            padding: 1px 0 2px;
+            line-height: 16px;
+        }
+        .ui-container tbody {
+            a {
+                width: 26px;
+                text-align: center;
+                line-height: 16px;
+                border: none;
+            }
+            td {
+                border: 1px solid #C5DBEC;
+                line-height: 16px;
+            }
+        }
+        .ui-container tbody td.not-current-month-date {
+            a {
+                color: #999;
+                background: #FFF;
+                &:hover { background: #9AB8D5; color: #fff; }
+                &.selected { background: @link-color; color: #fff; }
+            }
+        }
+    }
+
+    .ui-button-container {
+        padding: 5px 0 5px 10px;
+        background: #F1F1F1;
+        border-top: 1px solid #D7D7D7;
+        text-align: right;
+    }
+    .ui-button {
+        line-height: 24px;
+        padding: 0px 10px;
+        margin: 0 5px 0 0;
+        color: #fff;
+    }
+    .ui-confirm {
+        background: @link-color;
+    }
+    .ui-cancel, .ui-reset {
+        background: #888;
+    }
+}
+.eda-popup-calendar {
+  width: 100px;
+  padding: 0 2px 0 4px;
+  border: 1px solid #cfcfcf;
+  line-height: 24px;
+  height: 26px;
+  background-color: #fff;
+  .waysdatepicker {
+    width: 100%;
+    border: none;
+    padding:0;
+  }
+  .ui-popup {
+    border: 1px solid #D7D7D7;
+    .ui-calendar-header {
+      td {
+        background: #F1F1F1;
+        border-bottom: 1px solid #D7D7D7;
+      }
+      .ui-current {
+        color: #3675B4;
+      }
+      a {
+        color: #3675B4;
+      }
+    }
+
+    .ui-button-container {
+        padding: 4px;
+        background: #F1F1F1;
+        border-top: 1px solid #D7D7D7;
+        text-align: center;
+    }
+    .ui-button {
+        line-height: 24px;
+        padding: 0px 20px;
+        margin: 0 5px 0 0;
+        color: #fff;
+    }
+    .ui-confirm {
+        background: @link-color;
+        border: 1px solid @link-color;
+    }
+    .ui-cancel, .ui-reset {
+        background: #FFF;
+        color: @link-color;
+        border: 1px solid @link-color;
+    }
+  }
+}

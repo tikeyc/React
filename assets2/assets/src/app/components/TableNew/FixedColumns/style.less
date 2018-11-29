@@ -1,0 +1,37 @@
+.ways-table-fixed {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.ways-table-fixed-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  .ways-table-body-outer,
+  .ways-table-fixed {
+    left: auto;
+    right: 0;
+  }
+
+  .ways-table-visible-scroll-y & {
+    right: 12px;
+  }
+}
+
+.ways-table-fixed-left .ways-table-body-outer {
+  .ways-table-scroll-position-left & {
+    box-shadow: none;
+  }
+
+  box-shadow: 6px 0 6px -4px rgba(0, 0, 0, 0.15);
+}
+
+.ways-table-fixed-right .ways-table-body-outer {
+  .ways-table-scroll-position-right & {
+    box-shadow: none;
+  }
+
+  box-shadow: -6px 0 6px -4px rgba(0, 0, 0, 0.15);
+}

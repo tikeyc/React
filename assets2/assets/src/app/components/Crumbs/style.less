@@ -1,0 +1,53 @@
+@import '../../styles/index';
+
+.crumbs {
+  display: inline-block;
+  vertical-align: middle;
+
+  li {
+    display: inline-block;
+    line-height: 24px;
+    border: 1px solid #D7E0E9;
+    border-right: 0;
+    padding: 0 10px 0 20px;
+    position: relative;
+
+    &:first-child {
+      padding: 0 10px 0 10px;
+    }
+
+    &:before,
+    &:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-right: none;
+      border-bottom: 12px solid transparent;
+      border-left: 12px solid #fff;
+      position: absolute;
+      right: -11px;
+      top: 0;
+      z-index: 1;
+    }
+    &:before {
+      border-left: 12px solid #D7E0E9;
+      right: -12px;
+    }
+    &.active {
+      color: #fff;
+      background-color: @link-color;
+      border-color: @link-color;
+      &:before {
+        border-left: 12px solid @link-color;
+      }
+      &:after {
+        border-left: 12px solid @link-color;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

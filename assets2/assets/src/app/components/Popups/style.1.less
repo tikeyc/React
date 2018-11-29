@@ -1,0 +1,75 @@
+.pop-ups{
+  z-index: 5002;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #333;
+  .pop-ups-bg{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    filter:Alpha(opacity=70);
+  }
+  .pop-ups-box{
+    font-family: '"Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -200px;
+    width: 400px;
+    background: #fff;
+    text-align: center;
+  }
+  .pop-ups-header{
+    height: 36px;
+    line-height: 36px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #eee;
+    text-align: left;
+    .close {
+      width: 18px;
+      height: 18px;
+      margin: 7px 8px 0 0;
+      float: right;
+      background: url('../../images/icon/cross.png') 0 0;
+      cursor: pointer;
+    }
+  }
+  .pop-ups-body{
+    padding: 15px 20px;
+    // border-bottom: 1px solid #dedede;
+  }
+  .pop-ups-footer{
+    // height: 34px;
+    // line-height: 34px;
+    // font-size: 16px;
+    // color: #0e90d2;
+    // cursor: pointer;
+    // display: flex;
+    // .border-right{
+    //   border-right: 1px solid #dedede;
+    // }
+    // > div {
+    //   flex: 1;
+    //   &:hover{
+    //     background: #dedede;
+    //   }
+    // }
+    position: relative;
+    padding: 4px;
+    height: 35px;
+    background: #f1f1f1;
+    text-align: center;
+    overflow: visible
+  }
+}
+
+.fancybox-lock-test{
+  overflow: hidden !important;
+}

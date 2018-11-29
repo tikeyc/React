@@ -1,0 +1,384 @@
+@import '../../styles/index';
+
+*, :before, :after {
+  outline: none;
+  box-sizing: border-box;
+}
+
+html, body, .login, .app, .page, #app, #root, [data-reactroot] {
+  height: 100%;
+}
+
+html {
+  font-size: 14px;
+}
+
+body, pre {
+  color: #666;
+  font-size: 12px;
+  font-family: "microsoft yahei";
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: @link-color;
+}
+
+a:focus, a:hover {
+  text-decoration: initial!important;
+}
+
+button {
+  background-color: #fff;
+  cursor: pointer;
+  font-family: "microsoft yahei";
+  border: 0;
+  padding: 0;
+}
+
+input {
+  font-family: "microsoft yahei";
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+// Mixin itself
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.clearfix {
+  .clearfix();
+}
+
+.mr-3 {
+  margin-right: 3px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+.ml-50 {
+  margin-left: 50px;
+}
+.mr-50 {
+  margin-right: 50px;
+}
+.ml-100 {
+  margin-left: 100px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+.no-padding {
+  padding: 0!important;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+.pt-5{
+  padding-top: 5px;
+}
+.pl-5{
+  padding-left: 5px;
+}
+.pl-10{
+  padding-left: 10px;
+}
+.pr-10{
+  padding-right: 10px;
+}
+.pb-10{
+  padding-bottom: 10px;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  th {
+    font-weight: normal;
+  }
+}
+
+.page-wrapper {
+  padding: 50px 0 0 0;
+  min-width: @page-min-width;
+}
+
+.scrollbar-dynamic > .scroll-element {
+  .scroll-element_outer {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  }
+  &.scroll-y:hover,
+  &.scroll-y.scroll-draggable {
+    .scroll-element_outer {
+      min-width: 7px;
+      width: 14px;
+    }
+  }
+  &.scroll-x:hover,
+  &.scroll-x.scroll-draggable {
+    .scroll-element_outer {
+      min-height: 7px;
+      height: 14px;
+    }
+  }
+}
+
+input.form-control {
+  height: 26px;
+  border: 1px solid #cfcfcf;
+  line-height: 26px;
+  padding: 0 4px;
+  vertical-align: middle;
+  width: 120px;
+}
+
+
+.checkbox-controller {
+  .tt-ok-sign {
+    color: #DDD;
+    background: url("../../assets/images/checked.png") 0 -85px no-repeat;
+    font-size: 12px;
+    width: 12px;
+    height: 16px;
+    line-height: 12px;
+    &:before {
+      content: "";
+    }
+  }
+
+  span {
+    vertical-align: top;
+  }
+
+  &.checked {
+    .tt-ok-sign {
+      color: @link-color;
+      background-position: 0 1px;
+    }
+  }
+}
+
+.popup-selector {
+  .list {
+    a.dropdown-option {
+      color: @link-color;
+      display: inline-block;
+      padding: 5px 10px;
+    }
+  }
+
+  table.list > tbody > tr > td {
+    border-top: 1px solid #E8E8E8;
+    border-left: 1px solid #E8E8E8;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 0;
+
+    &:first-child {
+      border-left: 0;
+    }
+  }
+  table.list > tbody > tr:first-child > td {
+    border-top: 0;
+  }
+
+  table.list {
+    width: 100%;
+
+    td {
+      border-top: 1px solid #E8E8E8;
+      border-left: 1px solid #E8E8E8;
+      border-right: 0;
+      border-bottom: 0;
+      padding: 0;
+
+      &:first-child {
+        border-left: 0;
+      }
+    }
+
+    table {
+      tr:first-child td {
+        border-top: 0;
+      }
+    }
+  }
+
+  .scroller {
+    overflow: auto;
+    height: 320px;
+    position: relative;
+  }
+
+  .tool-bar {
+    padding: 10px;
+  }
+
+  .panel-body {
+    padding: 0;
+  }
+}
+
+.download-excel {
+  background: url(../../assets/images/button.png) 0 -26px;
+  width: 44px;
+  height: 26px;
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+// .leftTdLLL .checkbox-controller .tt-ok-sign { display: none; }
+// .checkbox-controller {
+//   .tt-ok-sign {
+//     color: #DDD;
+//     background: url(../../assets/images/checked.png) 0 -85px no-repeat;
+//     font-size: 12px;
+//     width: 12px;
+//     height: 16px;
+//     line-height: 12px;
+//     &:before {
+//       content: "";
+//     }
+//   }
+
+//   span {
+//     vertical-align: top;
+//   }
+
+//   &.checked {
+//     .tt-ok-sign {
+//       color: @link-color;
+//       background-position: 0 1px;
+//     }
+//   }
+// }
+
+.batch-date {
+  color: #bbb;
+  margin-left: 4px;
+  line-height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-field {
+  height: 24px;
+  border: 1px solid #cfcfcf;
+  line-height: 24px;
+  padding: 0 4px;
+}
+
+.block {
+  display: block!important;
+}
+.d-ib{
+  display: inline-block;
+}
+.c-p{
+  cursor: pointer
+}
+.va-t{
+  vertical-align: top;
+}
+.va-m{
+  vertical-align: middle;
+}
+.ta-c{
+  text-align: center;
+}
+.fw-b{
+  font-weight: bold;
+}
+.ways-think-tank-framework .reloadView{
+  // display: none;
+  background:#000000;
+  z-index: 5002;
+  filter:alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  right: 0;
+  bottom: 34px;
+  margin:0;
+  text-align: center;
+  >div{
+    width: 100%;
+    line-height: 100%;
+    position: absolute;
+    top: 40%;
+  }
+}

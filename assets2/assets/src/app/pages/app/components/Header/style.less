@@ -1,0 +1,41 @@
+.page-header {
+  height: 49px;
+  background: #3D6799;
+  z-index: 5001;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  .logo {
+    float: left;
+    // background: url(./images/logo.png) no-repeat 15px center;
+    width: 300px;
+    height: 52px;
+  }
+
+  .user-menu {
+    color: #fff;
+    float: right;
+    text-align: right;
+    line-height: 30px;
+    margin-right: 20px;
+    padding: 10px 0;
+
+    .user-name,
+    a {
+      color: #fff;
+      margin-right: 10px;
+
+      &.disabled {
+        color: #9da3a9;
+      }
+    }
+  }
+
+  .btn-group {
+    a {
+      color: #000;
+    }
+  }
+}

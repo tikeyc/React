@@ -1,0 +1,136 @@
+.table-wrapper {
+  position: relative;
+  &.scroll-y>.table-scroller {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .table-scroller {
+    border: 1px solid #F2F2F2;
+  }
+
+  .fixed-table-header-scroller,
+  .fixed-table-aside-scroller,
+  .fixed-table-header-aside-scroller {
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    .table {
+      background: #fff;
+    }
+  }
+
+  .fixed-table-header-scroller {
+    right: 1px;
+  }
+
+  .fixed-table-aside-scroller {
+    bottom: 1px;
+    border-right: 1px solid #fff;
+  }
+
+  .fixed-table-header-aside-scroller {
+    z-index: 1;
+    border-right: 1px solid #fff;
+  }
+
+  .table {
+    width: 100%;
+    tr:first-child th {
+      border-top: 0;
+    }
+    th, td {
+      padding: 5px;
+      white-space: nowrap;
+    }
+    th {
+      color: #000;
+      background-color: #F2F2F2;
+      border-left: 1px solid #FFF;
+      border-top: 1px solid #FFF;
+      font-weight: bold;
+      &:first-child {
+        border-left: 0;
+      }
+    }
+    td {
+      border-left: 1px solid #F2F2F2;
+      border-top: 1px solid #F2F2F2;
+      &:first-child {
+        border-left: 0;
+      }
+    }
+    &.fixed-table-header {
+      position: relative;
+    }
+  }
+
+  .calculate-width-row {
+    th {
+      height: 0px !important;
+      padding: 0 !important;
+      border-top: 0 !important;
+    }
+  }
+
+  .table-tips {
+    position: absolute;
+    font-size: 14px;
+    min-height: 50px;
+    line-height: 100%;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    .table-tips-content {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 15px;
+      width: 200px;
+    }
+    .table-loading {
+      background: url(../../images/loading.gif) no-repeat;
+      padding-left: 25px;
+      display: inline-block;
+      line-height: 15px;
+    }
+  }
+
+  .drill-point {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 10px;
+    background: url('./drill-point.jpg');
+    cursor: pointer;
+    &.drilled {
+      background-position: 0 -11px;
+    }
+    &.no-chidlren {
+      background: none;
+      cursor: default;
+    }
+  }
+
+  .odd {
+    background-color: #fff;
+  }
+  .even {
+    background-color: #F3F3F3;
+  }
+  tbody tr:hover {
+    background: #E0E0E0 !important;
+  }
+}
